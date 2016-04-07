@@ -17,7 +17,10 @@ namespace MqHoster
 
                 var item = mq.GetItem();
 
+
                 var repo = new DataLayer.Repository();
+
+                //enter the guid and push to github
 
                 repo.AddItem(item);
             }
