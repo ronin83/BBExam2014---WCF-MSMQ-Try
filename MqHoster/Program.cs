@@ -18,7 +18,6 @@ namespace MqHoster
                 var item = mq.GetItem();
 
 
-
                 var repo = new DataLayer.Repository();
 
                 repo.AddItem(item);
